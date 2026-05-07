@@ -1,0 +1,18 @@
+Reference,Qty,Component,Value,Footprint,Supplier Link,Datasheet/Reference,Notes
+BT1,1,Battery Connector,Battery,Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical,https://www.lcsc.com/search?q=JST%20PH%202%20pin,~,LiPo battery connector
+C1 C2 C3 C4 C5 C6 C7 C8,8,Capacitor,0.1uF,Capacitor_SMD:C_0805_2012Metric,https://www.lcsc.com/search?q=0.1uF%200805%20capacitor,~,Decoupling capacitors
+D1,1,APA-106-F5,RGB LED,LED_THT:LED_D5.0mm-4_RGB,https://www.lcsc.com/search?q=APA-106-F5,https://cdn.sparkfun.com/datasheets/Components/LED/COM-12877.pdf,Status RGB LED
+FB1,1,Ferrite Bead,FerriteBead,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/search?q=0805%20ferrite%20bead,~,Power filtering
+J1,1,USB-C Receptacle,USB_C_Receptacle_USB2.0_14P,Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A,https://www.lcsc.com/search?q=USB%20C%20receptacle%2016P,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,USB power and programming
+LS1,1,Speaker Connector,Speaker,Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical,https://www.lcsc.com/search?q=2%20pin%20speaker%20connector,~,Speaker output connector
+MK1,1,ICS-43434,I2S Microphone,Sensor_Audio:Knowles_LGA-5_3.5x2.65mm,https://www.lcsc.com/search?q=ICS-43434,https://www.invensense.com/wp-content/uploads/2016/02/DS-000069-ICS-43434-v1.2.pdf,I2S digital microphone
+R1 R6,2,Resistor,5.1kΩ,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/search?q=5.1k%200805%20resistor,~,USB-C CC resistors
+R2 R3,2,Resistor,10kΩ,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/search?q=10k%200805%20resistor,~,Pull-up or pull-down resistors
+R4,1,Resistor,1.2kΩ,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/search?q=1.2k%200805%20resistor,~,TP4056 programming resistor
+R5,1,Resistor,330kΩ,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/search?q=330k%200805%20resistor,~,Verify value if used for LED/data line
+SW1 SW2 SW3,3,Push Button,SW_Push,Button_Switch_THT:SW_PUSH_6mm_H4.3mm,https://www.lcsc.com/search?q=6mm%20push%20button,~,User input buttons
+U1,1,ESP32-S3-WROOM-1,ESP32-S3,RF_Module:ESP32-S3-WROOM-1,https://www.lcsc.com/search?q=ESP32-S3-WROOM-1,https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf,Main microcontroller module
+U3,1,TP4056-42-ESOP8,Li-ion Charger,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,https://www.lcsc.com/search?q=TP4056-42-ESOP8,https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf,LiPo charging IC
+U4,1,CH340C,USB to UART,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,https://www.lcsc.com/search?q=CH340C,https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf,USB programming interface
+U5,1,AMS1117-3.3,3.3V Regulator,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.lcsc.com/search?q=AMS1117-3.3,http://www.advanced-monolithic.com/pdf/ds1117.pdf,5V to 3.3V regulator
+U6,1,MAX98357A,I2S Amplifier,Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,https://www.lcsc.com/search?q=MAX98357A,https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf,I2S speaker amplifier
